@@ -1,0 +1,23 @@
+{
+  "name": "my-note",
+  "version": "1.0.0",
+  "description": "A note taking application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Acoleman37/my-note.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Acoleman37/my-note/issues"
+  },
+  "homepage": "https://github.com/Acoleman37/my-note#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
