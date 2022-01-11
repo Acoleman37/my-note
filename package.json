@@ -3,58 +3,6 @@
   "version": "1.0.0",
   "description": "GIVEN a note-taking application WHEN I open the Note Taker THEN I am presented with a landing page with a link to a notes page WHEN I click on the link to the notes page THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column WHEN I enter a new note title and the note’s text THEN a Save icon appears in the navigation at the top of the page WHEN I click on the Save icon THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes WHEN I click on an existing note in the list in the left-hand column THEN that note appears in the right-hand column WHEN I click on the Write icon in the navigation at the top of the page THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column",
   "main": "server.js",
-  "dependencies": {
-    "body-parser": "^1.19.1",
-    "accepts": "^1.3.7",
-    "array-flatten": "^1.1.1",
-    "bytes": "^3.1.1",
-    "content-disposition": "^0.5.4",
-    "content-type": "^1.0.4",
-    "cookie": "^0.4.1",
-    "debug": "^2.6.9",
-    "cookie-signature": "^1.0.6",
-    "depd": "^1.1.2",
-    "destroy": "^1.0.4",
-    "ee-first": "^1.1.1",
-    "encodeurl": "^1.0.2",
-    "etag": "^1.8.1",
-    "escape-html": "^1.0.3",
-    "express": "^4.17.2",
-    "finalhandler": "^1.1.2",
-    "fresh": "^0.5.2",
-    "forwarded": "^0.2.0",
-    "http-errors": "^1.8.1",
-    "iconv-lite": "^0.4.24",
-    "inherits": "^2.0.4",
-    "ipaddr.js": "^1.9.1",
-    "media-typer": "^0.3.0",
-    "merge-descriptors": "^1.0.1",
-    "methods": "^1.1.2",
-    "mime": "^1.6.0",
-    "mime-db": "^1.51.0",
-    "ms": "^2.0.0",
-    "mime-types": "^2.1.34",
-    "negotiator": "^0.6.2",
-    "on-finished": "^2.3.0",
-    "parseurl": "^1.3.3",
-    "range-parser": "^1.2.1",
-    "path-to-regexp": "^0.1.7",
-    "proxy-addr": "^2.0.7",
-    "safe-buffer": "^5.2.1",
-    "qs": "^6.9.6",
-    "send": "^0.17.2",
-    "serve-static": "^1.14.2",
-    "raw-body": "^2.4.2",
-    "setprototypeof": "^1.2.0",
-    "safer-buffer": "^2.1.2",
-    "statuses": "^1.5.0",
-    "toidentifier": "^1.0.1",
-    "unpipe": "^1.0.0",
-    "type-is": "^1.6.18",
-    "utils-merge": "^1.0.1",
-    "vary": "^1.1.2"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -63,13 +11,14 @@
     "type": "git",
     "url": "git+https://github.com/Acoleman37/my-note.git"
   },
-  "keywords": [
-    "[]"
-  ],
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Acoleman37/my-note/issues"
   },
-  "homepage": "https://github.com/Acoleman37/my-note#readme"
+  "homepage": "https://github.com/Acoleman37/my-note#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
